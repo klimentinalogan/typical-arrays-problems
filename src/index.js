@@ -5,6 +5,7 @@ function max(numbers) {
         if ( max < numbers[i]) max = numbers[i];
     }
     return max;
+    if(numbers = []) return 0;
 }
 
 function min(numbers) {
@@ -14,6 +15,7 @@ function min(numbers) {
         if ( min > numbers[i]) min = numbers[i];
     }
     return min;
+    if(numbers = []) return 0;
 }
 
 function avg (numbers) {
@@ -23,6 +25,7 @@ function avg (numbers) {
         sum = sum + numbers[i];
     }
     return sum / numbers.length;
+    if(numbers = []) return 0;
 }
 
 
