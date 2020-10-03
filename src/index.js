@@ -25,4 +25,4 @@ function avg (numbers) {
     return sum / numbers.length;
 }
 
-var numbers = [1, 2, 3, 4];
+
