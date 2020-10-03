@@ -11,26 +11,26 @@ exports.avg = function avg (array) {
 }
 
 function max(array) {
-    var max = numbers[0];
-    for (i = 0; i < numbers.length; i++) {
-        if ( max < numbers[i]) max = numbers[i];
+    var max = array[0];
+    for (i = 0; i < array.length; i++) {
+        if ( max < array[i]) max = array[i];
     }
     return max;
 }
 
 function min(array) {
-    var min = numbers[0];
-    for (i = 0; i < numbers.length; i++) {
-        if ( min > numbers[i]) min = numbers[i];
+    var min = array[0];
+    for (i = 0; i < array.length; i++) {
+        if ( min > array[i]) min = array[i];
     }
     return min;
 }
 
 function avg(array) {
     sum = 0;
-    for (i = 0; i < numbers.length; i++) {
-        sum = sum + numbers[i];
+    for (i = 0; i < array.length; i++) {
+        sum = sum + array[i];
     }
-    return sum / numbers.length;
+    return sum / array.length;
 }
 
