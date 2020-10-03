@@ -16,7 +16,6 @@ function max(array) {
         if ( max < numbers[i]) max = numbers[i];
     }
     return max;
-    if(numbers = []) return 0;
 }
 
 function min(array) {
@@ -25,7 +24,6 @@ function min(array) {
         if ( min > numbers[i]) min = numbers[i];
     }
     return min;
-    if(numbers = []) return 0;
 }
 
 function avg(array) {
@@ -34,6 +32,5 @@ function avg(array) {
         sum = sum + numbers[i];
     }
     return sum / numbers.length;
-    if(numbers = []) return 0;
 }
 
